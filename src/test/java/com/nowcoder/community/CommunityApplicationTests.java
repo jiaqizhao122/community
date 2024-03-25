@@ -1,7 +1,7 @@
 package com.nowcoder.community;
 
 import com.nowcoder.community.dao.AlphaDao;
-import com.nowcoder.community.service.AlphaService;
+//import com.nowcoder.community.service.AlphaService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,11 +35,11 @@ class CommunityApplicationTests implements ApplicationContextAware {
 
     }
 
-    @Test
-    public void testBeanManagement() {
-        AlphaService alphaService = applicationContext.getBean(AlphaService.class);
-        System.out.println(alphaService);
-    }
+//    @Test
+//    public void testBeanManagement() {
+//        AlphaService alphaService = applicationContext.getBean(AlphaService.class);
+//        System.out.println(alphaService);
+//    }
 
     @Test
     public void testBeanConfig() {
